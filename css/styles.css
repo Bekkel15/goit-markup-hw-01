@@ -25,22 +25,25 @@ a{text-decoration: none;}
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    color: #4D5AE5
+;}
 
     .header-contact-address{
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
+        color: #4D5AE5
     }
     
     .main-section{
-            max-width: 1440px;
-            margin: 0;
+            width: 1440px;
+            
             background: #2e2f42;
     }
 
     .main-section-title{
-        font-weight: 700;
+            font-weight: 700;
             font-size: 56px;
             line-height: 107%;
             letter-spacing: 0.02em;
@@ -51,10 +54,7 @@ a{text-decoration: none;}
     .main-button{
         font-family: inherit;
         font-weight: 500;
-        border-radius: 4px;
-            
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;
+        background: #4d5ae5;
     }
 
     .main-button-order{
@@ -90,7 +90,6 @@ a{text-decoration: none;}
             display: flex;
             justify-content: space-between;
             flex-wrap: nowrap;
-            gap: 20px;
             flex-shrink: 0;
             
         }
@@ -105,10 +104,7 @@ a{text-decoration: none;}
     }
 
     .main-menu-box{
-        border-radius: 0 0 4px 4px;
-           
-            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-                background: #fff;
+        background: #fff;
                 
     }
     
@@ -132,9 +128,6 @@ a{text-decoration: none;}
         
     .footer{
         background: #2e2f42;
-        max width: 1440px;
-        margin: 0 auto;
-        
         text-align: center;
     }
 
