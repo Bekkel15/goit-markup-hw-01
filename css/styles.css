@@ -50,6 +50,7 @@ a{text-decoration: none;}
 
     .main-button{
         font-family: inherit;
+        font-weight: 500
         border-radius: 4px;
             padding: 16px 32px;
             width: 169px;
@@ -148,6 +149,7 @@ a{text-decoration: none;}
     }
 
     .fotter-logo-studio{
+        font-family: "Raleway", sans-serif;
         color: #f4f4fd;
     }
    
