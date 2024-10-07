@@ -35,7 +35,6 @@ a{text-decoration: none;}
     
     .main-section{
             max-width: 1440px;
-            height: 600px;
             margin: 0;
             background: #2e2f42;
     }
@@ -53,9 +52,7 @@ a{text-decoration: none;}
         font-family: inherit;
         font-weight: 500;
         border-radius: 4px;
-            padding: 16px 32px;
-            width: 169px;
-            height: 56px;
+            
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             background: #4d5ae5;
     }
@@ -84,8 +81,7 @@ a{text-decoration: none;}
     
     .main-menu-team{
         border: 1px solid #000;
-            width: 1440px;
-            height: 732px;
+            
             background: #f4f4fd;
             
     }
@@ -110,9 +106,7 @@ a{text-decoration: none;}
 
     .main-menu-box{
         border-radius: 0 0 4px 4px;
-            padding: 0px 0px 32px 0px;
-            width: 264px;
-            height: 380px;
+           
             box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
                 background: #fff;
                 
@@ -138,10 +132,9 @@ a{text-decoration: none;}
         
     .footer{
         background: #2e2f42;
-        max: width 1440px;
+        max width: 1440px;
         margin: 0 auto;
-        height: 312px;
-        padding: 20px;
+        
         text-align: center;
     }
 
