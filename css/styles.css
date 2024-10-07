@@ -88,14 +88,14 @@ a {
 
 .main-button {
 
-
     font-family: inherit;
 
 
     font-weight: 500;
-
-
-    background: #4d5ae5;
+    background: #fff;
+    border: none;
+    cu cursor: pointer;
+    font-size: 16px;
 }
 
 .main-button-order {
