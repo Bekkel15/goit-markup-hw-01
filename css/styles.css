@@ -43,8 +43,7 @@ a {
         .list-item {
             background-color: #FFFFFF;
             /* Колір фону для пункту списку */
-            padding: 10px;
-            /* Додатковий відступ для кращого вигляду */
+           
         }
     
         .header-title {
@@ -125,7 +124,7 @@ a {
     cursor: pointer;
 }
 
-.main-button:hover,
+
 .main-button:focus {
     background-color: #404bbf;
 }
@@ -141,10 +140,17 @@ a {
 .main-menu-list {
     margin-bottom: 20px;
     text-align: left;
+    background-color: #FFFFFF
 }
 
 .main-menu-item {
     margin-bottom: 10px;
+}
+.main-menu-box{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .main-menu-title,
