@@ -137,20 +137,16 @@ a {
     margin-bottom: 30px;
 }
 
-.main-menu-list {
-    margin-bottom: 20px;
-    text-align: left;
-    background-color: #FFFFFF
-}
 
 .main-menu-item {
     margin-bottom: 10px;
 }
-.main-menu-box{
+.main-menu-list{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    background-color: #FFFFFF;
 }
 
 .main-menu-title,
@@ -178,7 +174,7 @@ a {
     /* Фоновий колір футера */
    
 }
-}
+
 
 .footer-logo-studio {
    
