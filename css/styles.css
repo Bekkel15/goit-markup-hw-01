@@ -28,8 +28,17 @@ a {
     /* Відстань між літерами */
     text-transform: uppercase;
     /* Відображення літер у верхньому регістрі */
+    color: #2e2f42;
+    
+}
+.header-logo span.web {
     color: #4d5ae5;
-    /* Колір тексту */
+    /* Колір для "Web" */
+}
+
+.header-logo span.studio {
+    color: #2e2f42;
+    /* Колір для "Studio" */
 }
 
 
@@ -162,10 +171,19 @@ a {
         color: #2e2f42;
         color: #4d5ae5
 }
+.footer-logo span.web {
+    color: #4d5ae5;
+    /* Колір для "Web" */
+}
+
+.footer-logo span.studio {
+    color: #f4f4fd;
+    /* Колір для "Studio" */
+}
 
 .footer-text {
     font-size: 16px;
-    color: #434455;
+    color: #f4f4fd;
     margin-top: 10px;
 }
    /* Стиль для секції */
