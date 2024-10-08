@@ -150,7 +150,8 @@ a {
 
 .footer {
     background-color: #2e2f42;
-    /* Фоновий колір */
+    /* Фоновий колір футера */
+   
 }
 }
 
@@ -175,8 +176,10 @@ a {
 
 .footer-text {
     font-size: 16px;
+    line-height: 1.5;
     color: #f4f4fd;
-    margin-top: 10px;
+    letter-spacing: 0.02em
+    
 }
    /* Стиль для секції */
    .main-menu-portfolio {
