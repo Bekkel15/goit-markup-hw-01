@@ -171,15 +171,7 @@ a {
         color: #2e2f42;
         color: #4d5ae5
 }
-.footer-logo span.web {
-    color: #4d5ae5;
-    /* Колір для "Web" */
-}
 
-.footer-logo span.studio {
-    color: #f4f4fd;
-    /* Колір для "Studio" */
-}
 
 .footer-text {
     font-size: 16px;
