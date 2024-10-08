@@ -112,10 +112,27 @@ a {
     text-align: center;
 }
 
+.main-button {
+    background-color: #4d5ae5;
+    /* Початковий колір фону кнопки */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    /* Колір тексту */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Додаємо перехід для плавної зміни кольору */
+}
+
 .main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
-}
+    /* Колір фону кнопки при наведенні миші */
+    color: #fff;
 .main-menu-team{
     font-size: 36px;
     line-height: 1.11;
