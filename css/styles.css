@@ -17,16 +17,19 @@ a {
 
 .header-logo {
     font-family: "Raleway", sans-serif;
+    /* Шрифт для логотипу */
     font-weight: 700;
+    /* Жирність шрифту */
     font-size: 18px;
+    /* Розмір шрифту */
     line-height: 1.17;
+    /* Простір між рядками */
     letter-spacing: 0.03em;
+    /* Відстань між літерами */
     text-transform: uppercase;
+    /* Відображення літер у верхньому регістрі */
     color: #4d5ae5;
-}
-
-.header-logo-studio {
-    color: #2e2f42;
+    /* Колір тексту */
 }
 
 
@@ -137,9 +140,9 @@ a {
 }
 
 .footer {
-
-    backgroun bac background: #2e2f42;
-    text- te text-align: center;
+    background-color: #2e2f42;
+    /* Фоновий колір */
+}
 }
 
 .footer-logo-studio {
