@@ -17,32 +17,51 @@ a {
 
 .header-logo {
     font-family: "Raleway", sans-serif;
-    /* Шрифт для логотипу */
+    /* Шрифт логотипу */
     font-weight: 700;
     /* Жирність шрифту */
     font-size: 18px;
     /* Розмір шрифту */
     line-height: 1.17;
-    /* Простір між рядками */
+    /* Відстань між рядками */
     letter-spacing: 0.03em;
-    /* Відстань між літерами */
+    /* Відступи між літерами */
     text-transform: uppercase;
-    /* Відображення літер у верхньому регістрі */
-    color: #2e2f42;
-    
-}
-.header-logo span.web {
+    /* Перетворення тексту на великі літери */
     color: #4d5ae5;
-    /* Колір для "Web" */
+    /* Колір тексту логотипу */
 }
 
-.header-logo span.studio {
-    color: #2e2f42;
-    /* Колір для "Studio" */
-}
+/* Стиль для спану в логотипі */
+.header-logo span {
+    color: #2e2f42;}
+        .section {
+            background-color: #F4F4FD;
+            /* Колір фону секції */
+        }
+    
+        .list-item {
+            background-color: #FFFFFF;
+            /* Колір фону для пункту списку */
+            padding: 10px;
+            /* Додатковий відступ для кращого вигляду */
+        }
+    
+        .header-title {
+            letter-spacing: 0.02em;
+            /* Відступи між літерами */
+            text-transform: capitalize;
+            /* Стиль написання тексту */
+            font-size: 36px;
+            /* Розмір тексту */
+            line-height: 1.11;
+            /* Відстань між рядками */
+            color: #2e2f42;
+            /* Колір тексту (можете змінити при необхідності) */
+        }
 
 
-.header-menu-link {
+ .header-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
