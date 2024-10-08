@@ -146,7 +146,21 @@ a {
 }
 
 .footer-logo-studio {
-    color: #4d5ae5;
+   
+    font-family: "Raleway", sans-serif;
+        /* Шрифт для логотипу */
+        font-weight: 700;
+        /* Жирність шрифту */
+        font-size: 18px;
+        /* Розмір шрифту */
+        line-height: 1.17;
+        /* Простір між рядками */
+        letter-spacing: 0.03em;
+        /* Відстань між літерами */
+        text-transform: uppercase;
+        /* Відображення літер у верхньому регістрі */
+        color: #2e2f42;
+        color: #4d5ae5
 }
 
 .footer-text {
