@@ -80,26 +80,50 @@ a {
     margin-bottom: 20px;
 }
 
+/* Стиль для секції */
+.main-section {
+    background-color: #2e2f42;
+    /* Колір фону секції */
+}
+
+/* Стиль для заголовку */
 .main-section-title {
-    font-weight: 700;
-    font-size: 36px;
-    color: #2E2F42;
+    font-size: 56px;
+    /* Розмір шрифту */
+    line-height: 1.07;
+    /* Відстань між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #ffffff;
+    /* Колір шрифту */
     text-align: center;
+    /* Вирівнювання тексту по центру */
 }
 
+/* Стиль для кнопки */
 .main-button {
-    text-align: center;
-    margin-top: 32px;
-    font-weight: 500;
+    background-color: #4d5ae5;
+    /* Колір фону кнопки */
+    font-family: "Roboto", sans-serif;
+    /* Наслідування сімейства шрифтів */
     font-size: 16px;
-    color: #FFFFFF;
-    background-color: #4056b5;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Відстань між рядками */
+    letter-spacing: 0.04em;
+    /* Відстань між літерами */
+    color: #fff;
+    /* Колір тексту */
+    border: none;
     cursor: pointer;
+    /* Зміна курсору на pointer */
 }
 
+/* Стиль для кнопки при ховері */
 .main-button:hover,
 .main-button:focus {
-    background-color: #2E2F42;
+    background-color: #404bbf;
+    /* Колір фону при наведенні та фокусі */
 }
 
 .main-section-heading {
