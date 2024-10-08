@@ -112,22 +112,16 @@ a {
     text-align: center;
 }
 
-.main-button {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-
+.main-button:hover,
 .main-button:focus {
-    background-color: #404bbf;
+    background-color: #404BBF;
 }
+.main-menu-team{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    background-color: #FFFFFF;}
 
 .main-section-heading {
     font-weight: 700;
@@ -142,15 +136,11 @@ a {
     margin-bottom: 10px;
 }
 .main-menu-list{
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    background-color: #FFFFFF;
+    
 }
 
-.main-menu-title,
-.main-menu-our,
+
+
 .main-menu-name {
     font-weight: 500;
     line-height: 1.2;
@@ -160,7 +150,7 @@ a {
     text-align: center;
 }
 
-.main-menu-text,
+
 .main-menu-speciality {
     line-height: 1.5;
     letter-spacing: 0.02em;
