@@ -108,6 +108,7 @@ a {
     /* Наслідування сімейства шрифтів */
     font-size: 16px;
     /* Розмір шрифту */
+    font-weight: 500;
     line-height: 1.5;
     /* Відстань між рядками */
     letter-spacing: 0.04em;
@@ -143,33 +144,37 @@ a {
     margin-bottom: 10px;
 }
 
-.main-menu-title {
-    font-weight: 700;
-    font-size: 20px;
-    color: #2E2F42;
-}
-
-.main-menu-text {
-    font-weight: 400;
-    font-size: 16px;
-    color: #434455;
-}
-
-.main-menu-box {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
+/* Стиль для заголовків (h2, h3, тощо) */
+.main-menu-title,
+.main-menu-our,
 .main-menu-name {
-    font-weight: 700;
+    font-weight: 500;
+    /* Жирність шрифту */
+    line-height: 1.2;
+    /* Відстань між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
     font-size: 20px;
-    color: #2E2F42;
+    /* Розмір шрифту */
+    color: #2e2f42;
+    /* Колір тексту */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
 }
 
+/* Стиль для параграфів */
+.main-menu-text,
 .main-menu-speciality {
-    font-weight: 400;
+    line-height: 1.5;
+    /* Відстань між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
     font-size: 16px;
+    /* Розмір шрифту */
     color: #434455;
+    /* Колір тексту */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
 }
 
 .footer {
