@@ -15,64 +15,54 @@ a {
     color: inherit;
 }
 
-/* Лого (з текстом uppercased) */
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
-    /* Відстань між рядками */
     letter-spacing: 0.03em;
-    /* Відступ між літерами */
     text-transform: uppercase;
-    /* Перетворення в верхній регістр */
     color: #4d5ae5;
 }
 
-/* Стиль для "Studio" в лого */
 .header-logo-studio {
     color: #2e2f42;
 }
 
-/* Стиль для посилань в меню */
+
 .header-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    /* Відстань між рядками */
+    
     letter-spacing: 0.02em;
-    /* Відступ між літерами */
+    
     color: #2e2f42;
 }
 
-/* Hover та Focus для посилань */
+
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: #404bbf;
-    /* Колір при наведенні і фокусі */
+    
 }
 
-/* Стиль для посилань контактної інформації */
+
 .header-contact-address {
     font-size: 16px;
     line-height: 1.5;
-    /* Відстань між рядками */
     letter-spacing: 0.02em;
-    /* Відступ між літерами */
     color: #434455;
 }
 
-/* Hover та Focus для контактних посилань */
 .header-contact-address:hover,
 .header-contact-address:focus {
     color: #404bbf;
-    /* Колір при наведенні і фокусі */
+
 }
 
-/* Стиль для тегу address */
 .header-address {
     font-style: normal;
-    /* Вимкнути курсив */
 }
 
 .main {
@@ -80,51 +70,33 @@ a {
     margin-bottom: 20px;
 }
 
-/* Стиль для секції */
 .main-section {
     background-color: #2e2f42;
-    /* Колір фону секції */
 }
 
-/* Стиль для заголовку */
 .main-section-title {
     font-size: 56px;
-    /* Розмір шрифту */
     line-height: 1.07;
-    /* Відстань між рядками */
     letter-spacing: 0.02em;
-    /* Відстань між літерами */
     color: #ffffff;
-    /* Колір шрифту */
     text-align: center;
-    /* Вирівнювання тексту по центру */
 }
 
-/* Стиль для кнопки */
 .main-button {
     background-color: #4d5ae5;
-    /* Колір фону кнопки */
     font-family: "Roboto", sans-serif;
-    /* Наслідування сімейства шрифтів */
     font-size: 16px;
-    /* Розмір шрифту */
     font-weight: 500;
     line-height: 1.5;
-    /* Відстань між рядками */
     letter-spacing: 0.04em;
-    /* Відстань між літерами */
     color: #fff;
-    /* Колір тексту */
     border: none;
     cursor: pointer;
-    /* Зміна курсору на pointer */
 }
 
-/* Стиль для кнопки при ховері */
 .main-button:hover,
 .main-button:focus {
     background-color: #404bbf;
-    /* Колір фону при наведенні та фокусі */
 }
 
 .main-section-heading {
@@ -144,43 +116,29 @@ a {
     margin-bottom: 10px;
 }
 
-/* Стиль для заголовків (h2, h3, тощо) */
 .main-menu-title,
 .main-menu-our,
 .main-menu-name {
     font-weight: 500;
-    /* Жирність шрифту */
     line-height: 1.2;
-    /* Відстань між рядками */
     letter-spacing: 0.02em;
-    /* Відстань між літерами */
     font-size: 20px;
-    /* Розмір шрифту */
     color: #2e2f42;
-    /* Колір тексту */
     text-align: center;
-    /* Вирівнювання тексту по центру */
 }
 
-/* Стиль для параграфів */
 .main-menu-text,
 .main-menu-speciality {
     line-height: 1.5;
-    /* Відстань між рядками */
     letter-spacing: 0.02em;
-    /* Відстань між літерами */
     font-size: 16px;
-    /* Розмір шрифту */
     color: #434455;
-    /* Колір тексту */
     text-align: center;
-    /* Вирівнювання тексту по центру */
 }
 
 .footer {
 
     backgroun bac background: #2e2f42;
-
     text- te text-align: center;
 }
 
@@ -193,4 +151,28 @@ a {
     color: #434455;
     margin-top: 10px;
 }
-   
+   /* Стиль для секції */
+   .main-menu-portfolio {
+       background-color: #F4F4FD;
+       /* Фоновий колір секції */
+   }
+
+   /* Стиль для заголовків у секції портфоліо */
+   .main-menu-portfolio h2 {
+       font-size: 36px;
+       /* Розмір тексту */
+       line-height: 1.11;
+       /* Відстань між рядками */
+       letter-spacing: 0.02em;
+       /* Відстань між літерами */
+       text-transform: capitalize;
+       /* Стиль написання тексту */
+       color: #2e2f42;
+       /* Колір тексту заголовка */
+   }
+
+   /* Стиль для пунктів списку в секції */
+   .main-menu-box-por {
+       background-color: #FFFFFF;
+       /* Фоновий колір для пункту списку */
+   }
