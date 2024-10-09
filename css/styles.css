@@ -200,18 +200,12 @@ a {
     /* Колір тексту */
 }
 
-.footer-logo-web {
-    color: #4d5ae5;
-    /* Колір для слова "Web" */
-}
-
-.footer-logo-studio {
-    color: #f4f4fd;
-    /* Колір для слова "Studio" */
+.header-logo-studio-footer{
+    color: #f4f4fd
 }
 
 .footer-paragraph {
-    olor: #f4f4fd;
+    color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
