@@ -23,16 +23,18 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    /* Видаляємо підкреслення */
 }
 
 .header-logo-studio {
     color: #2e2f42;
+    /* Колір для "Studio" */
 }
 .logo {
     text-decoration: none;
-    /* Вимкнення підкреслення */
-    display: flex;
-    /* Дисплей флекс для горизонтального вирівнювання */
+    
+    
 }
 
 .logo-web {
@@ -176,20 +178,47 @@ a {
     
 }
 
-.footer {
+:root {
+    --footer-text-color: #F4F4FD;
+    /* CSS-змінна для кольору тексту в параграфі */
+}
 
-     background: #2e2f42;
-     
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    /* Шрифт логотипа */
+    font-weight: 700;
+    /* Жирність шрифту */
+    font-size: 18px;
+    /* Розмір шрифту */
+    line-height: 1.17;
+    /* Проміжок між рядками */
+    letter-spacing: 0.03em;
+    /* Відступ між літерами */
+    text-transform: uppercase;
+    /* Текст у верхньому регістрі */
+    color: #4d5ae5;
+    /* Колір тексту */
+}
+
+.footer-logo-web {
+    color: #4d5ae5;
+    /* Колір для слова "Web" */
 }
 
 .footer-logo-studio {
-    color: #4d5ae5;
+    color: #f4f4fd;
+    /* Колір для слова "Studio" */
 }
 
-.footer-text {
-    font-size: 16px;
-    color: #434455;
-    margin-top: 10px;
+.footer-paragraph {
+    color: var(--footer-text-color);
+    /* Використання змінної для кольору тексту */
+}
+
+/* Інші стилі для футера */
+.footer {
+    background-color: #2e2f42;
+    /* Фоновий колір футера */
 }
 
 /* Стиль для секції */
