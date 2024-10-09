@@ -211,8 +211,9 @@ a {
 }
 
 .footer-paragraph {
-    color: var(--footer-text-color);
-    /* Використання змінної для кольору тексту */
+    olor: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Інші стилі для футера */
