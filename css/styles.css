@@ -21,7 +21,7 @@ a {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    padding: 32px 0;
+
 }
 .header{border-bottom: 1px solid #e7e9fc;}
 .header-container {
@@ -236,15 +236,17 @@ margin-bottom: 8px;
 }
 .team-item-images{
     display: block;
-        /* Перетворює зображення в блоковий елемент */
-        margin: 0 auto;
+        min-width: 100%;
+        height: auto;
 }
 .main-menu-text{
     font-size: 16px;
     line-height: 16;
     letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;}
+    
+    color: #434455;
+}
+
     .container-subtitle-text{
         border-bottom: 1px solid #e7e9fc;
             border-left: 1px solid #e7e9fc;
