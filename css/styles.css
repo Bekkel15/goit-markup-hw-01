@@ -25,74 +25,82 @@ body {
     padding: 0 15px;
 }
 
+/* Оформлення хедера */
 .header {
-    background-color: #333;
-    padding: 15px 0;
+    border-bottom: 1px solid #e7e9fc;
+    /* Нижній край хедера */
 }
 
+/* Контейнер всередині хедера */
 .header-container {
     display: flex;
-    justify-content: space-between;
+    /* Для вирівнювання контенту в одну лінію */
+    width: 1158px;
+    /* Ширина контенту */
+    margin: 0 auto;
+    /* Центрування контейнера */
+    padding: 0 15px;
+    /* Внутрішні відступи */
+}
+
+/* Навігація */
+.nav {
+    display: flex;
+    /* Розташування логотипа та меню в одну лінію */
     align-items: center;
+    /* Вирівнювання по вертикалі */
 }
 
-.header-logo {
-    color: white;
-    font-size: 30px;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
+/* Логотип */
+.nav-logo {
+    margin-right: 76px;
+    /* Відступ від логотипа */
 }
 
-.header-logo-studio {
-    color: #ff6b01;
-}
-
-.header-navigation {
+/* Меню */
+.nav-menu {
     display: flex;
-    align-items: center;
+    /* Розташування пунктів меню горизонтально */
+    gap: 40px;
+    /* Відступи між пунктами меню */
 }
 
-.header-menu-list {
+/* Пункти меню */
+.nav-menu-item {
+    margin-right: 40px;
+    /* Відступ між пунктами меню */
+}
+
+/* Останній пункт меню без відступу */
+.nav-menu-item:last-child {
+    margin-right: 0;
+    /* Обнулення відступу для останнього пункту */
+}
+
+/* Посилання в меню */
+.nav-menu-link {
+    padding: 24px 0;
+    /* Внутрішні відступи для посилань */
+}
+
+/* Контактна інформація */
+.header-contacts {
     display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    /* Розташування контактів в одну лінію */
 }
 
-.header-menu-item {
-    margin-right: 20px;
-}
-
-.header-menu-link {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
-}
-
-.header-menu-link:hover,
-.header-menu-link:focus {
-    color: #ff6b01;
-}
-
-.header-address {
-    color: white;
-}
-
-.header-contact-list {
-    list-style: none;
+/* Список контактів */
+.contact-list {
     display: flex;
-    gap: 15px;
+    /* Розташування елементів списку горизонтально */
+    gap: 40px;
+    /* Відступи між контактами */
 }
 
-.header-contact-item {
-    margin: 0;
-}
-
-.header-contact-address {
-    color: white;
-    text-decoration: none;
+/* Останній пункт контактів без відступу */
+.contact-item:last-child {
+    margin-right: 0;
+    /* Обнулення відступу для останнього пункту */
 }
 
 .main-section {
@@ -203,4 +211,9 @@ body {
     .main-section-title {
         font-size: 36px;
     }
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
