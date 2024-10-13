@@ -1,193 +1,241 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
-    padding: 0;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .container {
-    max-width: 1200px;
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
+    padding: 32px 0;
+}
+.header{border-bottom: 1px solid #e7e9fc;}
+.header-container {
+    display: flex;
+    align-items: center;
     padding: 0 15px;
 }
-
-.header {
+.header-navigation {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
 }
+.header-menu-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.header-contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #434455;
-    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
-.header-menu-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.header-logo-studio {
+    color: #2e2f42;
 }
 
-.header-menu-item {
-    display: inline-block;
-}
 
 .header-menu-link {
-    text-decoration: none;
-    color: #434455;
+    display: block;
+    padding: 23px 0;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
 }
 
-.header-contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
+}
+.header-contacts {
+    margin-left: auto;
+    font-style: normal;
 }
 
-.header-contact-item {
-    display: inline-block;
-}
 
-.header-contact-address {
-    text-decoration: none;
-    color: #434455;
+.header-menu-link {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-contacts-link {
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .main {
-    padding: 40px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main-section {
-    padding: 188px 0;
-    /* Відступи всередині секції */
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.main_section_title {
+.main-section-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
     max-width: 496px;
-    /* Ширина заголовка */
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    margin: 0 auto 48px auto;
 }
 
-.main_button {
-    display: block;
-    /* Для центрування */
-    min-width: 169px;
-    /* Мінімальна ширина кнопки */
-    height: 56px;
-    /* Висота кнопки */
+.main-button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
     border: none;
-    /* Вимкнення стандартного оформлення кнопки */
-    background-color: var(--button-bg-color, #4d5ae5);
-    /* Фон кнопки */
-    border-radius: 4px;
-    /* Заокруглення кнопки */
     cursor: pointer;
-    /* Тип курсора на кнопці */
+    display: block;
     margin: 0 auto;
-    /* Центрування кнопки */
+    padding: 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
 }
 
-.main-advantages {
-    padding: 120px 0;
-    /* Відступи всередині секції */
-}
-
-.advantages-list {
-    display: flex;
-    /* Горизонтальне розміщення */
-    gap: 24px;
-    /* Відступи між елементами списку */
-}
-
-.advantages-item {
-    width: calc((100% - 72px) / 4);
-    /* Ширина пункту списку */
-}
-
-.advantages-title {
-    margin-bottom: 8px;
-    /* Відступ між заголовком і текстом */
+.main-button:hover,
+.main-button:focus {
+    background-color: #404bbf;
 }
 
 .main-section-heading {
+    font-weight: 700;
     font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    color: #2E2F42;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .main-menu-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-.main-menu-box {
+.main-menu-item {
+    margin-bottom: 10px;
+}
+
+.main-menu-title,
+.main-menu-our,
+.main-menu-name {
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    color: #2e2f42;
     text-align: center;
 }
 
-.main-menu-img {
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.main-menu-name {
-    font-size: 18px;
-    font-weight: bold;
-}
-
+.main-menu-text,
 .main-menu-speciality {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-size: 16px;
-    color: #888;
-}
-
-.main-menu-portfolio {
-    margin-top: 60px;
-}
-
-.main-menu-list-por {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.main-menu-box-por {
-    width: 30%;
+    color: #434455;
     text-align: center;
 }
 
 .footer {
-    background-color: #3b5998;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+
+     background: #2e2f42;
+     
+}
+.footer-logo{
+    color: #4d5ae5;
 }
 
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
+.footer-logo-studio {
+    color: #f4f4fd;
 }
 
 .footer-text {
     font-size: 16px;
-    margin: 0;
+    color: #F4F4FD;
+    margin-top: 10px;
+}
+
+/* Стиль для секції */
+.main-menu-portfolio {
+    background-color: #F4F4FD;
+    /* Фоновий колір секції */
+}
+
+/* Стиль для заголовків у секції портфоліо */
+.main-menu-portfolio h2 {
+    font-size: 36px;
+    /* Розмір тексту */
+    line-height: 1.11;
+    /* Відстань між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    text-transform: capitalize;
+    /* Стиль написання тексту */
+    color: #2e2f42;
+    /* Колір тексту заголовка */
+}
+
+/* Стиль для пунктів списку в секції */
+.main-menu-box-por {
+    background-color: #FFFFFF;
+    /* Фоновий колір для пункту списку */
 }
