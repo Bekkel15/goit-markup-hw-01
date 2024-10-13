@@ -235,8 +235,9 @@ margin-bottom: 8px;
         width: calc((100% - 72px) / 4);
 }
 .team-item-images{
-    margin-bottom: 32px;
     display: block;
+        /* Перетворює зображення в блоковий елемент */
+        margin: 0 auto;
 }
 .main-menu-text{
     font-size: 16px;
