@@ -679,6 +679,7 @@ a {
     margin-bottom: 8px;
 }
 .modal-field-textarea{margin-bottom: 16px;}
+.modal-field-checkbox{margin-bottom: 24px;}
 .modal-input{
     width: 100%;
     height: 40px;
