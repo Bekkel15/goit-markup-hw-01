@@ -834,3 +834,10 @@ margin-bottom: 4px;
     display: inline-flex;
 
 }
+.modal-field {
+    margin-bottom: 24px;
+    /* Відступ 24px між параграфом та наступним елементом */
+}
+
+.modal-check-svg {
+    display: inline-flex;
