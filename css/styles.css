@@ -523,7 +523,7 @@ a {
 /* Поле ввода email */
 .footer-input {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
@@ -542,11 +542,12 @@ a {
 /* Кнопка подписки */
 .footer-submit-btn {
     font-family: "Roboto", sans-serif;
+    min-width: 165px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
