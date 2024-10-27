@@ -519,7 +519,7 @@ a {
 }
 
 /* Форми підписки, gap між елементами форми */
-.footer_subscribe {
+.footer-subscribe {
     /* Клас з дефісом */
     display: flex;
     gap: 24px;
@@ -527,93 +527,63 @@ a {
 }
 
 /* Поле вводу email */
-.footer_input {
-    /* Клас з дефісом */
+.footer-input {
     background-color: transparent;
     border: 1px solid #fff;
-    /* Стиль, ширина та колір межі */
     border-radius: 4px;
-    /* Радіус закруглення кутів */
     width: 264px;
-    /* Ширина елемента */
     height: 40px;
-    /* Висота елемента */
-    font-size: 12px;
-    /* Розмір шрифта */
-    line-height: 2;
-    /* Простір між рядками */
-    letter-spacing: 0.04em;
-    /* Відстань між літерами */
-    padding-left: 16px;
-    /* Внутрішні відступи */
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    /* Тінь на елемент */
-    border-radius: 4px;
-    /* Радіус закруглення кутів */
-    color: #ffffff;
-    /* Колір тексту */
+    margin-right: 24px;
 }
 
 /* Placeholder в полі email */
-.footer_input::placeholder {
+.footer-input::placeholder {
     color: #ffffff;
     /* Колір тексту */
 }
 
 /* Кнопка підписки */
-.footer_submit_btn {
-    /* Клас з дефісом */
-    font-family: "Roboto", sans-serif;
-    /* Сімейство шрифта */
-    font-weight: 500;
-    /* Жирність шрифта */
-    font-size: 16px;
-    /* Розмір шрифта */
-    line-height: 1.5;
-    /* Простір між рядками */
-    letter-spacing: 0.04em;
-    /* Відстань між літерами */
-    color: #ffffff;
-    /* Колір тексту в кнопці */
-    cursor: pointer;
-    /* Стиль курсору */
-    background-color: #4D5AE5;
-    /* Колір фону */
-    border: none;
-    /* Вимкнення стандартного оформлення кнопки */
-    border-radius: 4px;
-    /* Радіус закруглення кутів */
-    min-width: 165px;
-    /* Мінімальна ширина кнопки */
-    height: 40px;
-    /* Висота кнопки */
-    display: flex;
-    /* Для подальшої можливості зміни розташування дочірніх елементів */
-    justify-content: center;
-    /* Вирівнювання контенту по горизонталі */
-    align-items: center;
-    /* Вирівнювання контенту по вертикалі */
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.footer-submit-btn {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        cursor: pointer;
+        background-color: #4D5AE5;
+        display: block;
+        margin: 0 auto;
+        border-radius: 4px;
+        border: none;
+        width: 165px;
+        height: 40px;
+        padding: 8px 24px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        gap: 16px;
 }
 
 /* Hover ефект для кнопки */
-.footer_submit_btn:hover {
+.footer-submit-btn:hover {
     background-color: #404BBF;
     /* Зміна фону при наведенні */
 }
 
-.footer_submit_btn:focus {
+.footer-submit-btn:focus {
     background-color: #404BBF;
     /* Зміна фону при фокусі */
 }
 
 /* Іконка всередині кнопки */
-.subscribe_btn {
-    /* Клас з дефісом */
-    width: 24px;
-    height: 24px;
-    margin-left: 16px;
-    /* Відступи */
+.subscribe-btn {
+    border-radius: 4px;
+        width: 24px;
+        height: 24px;
+        margin-top: 8px;
 }
 
 
