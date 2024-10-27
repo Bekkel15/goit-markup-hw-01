@@ -510,6 +510,7 @@ a {
     justify-content: space-between;
 }
 
+/* Заголовок формы подписки */
 .subscribe-subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -519,17 +520,28 @@ a {
     margin-bottom: 16px;
 }
 
+/* Поле ввода email */
 .footer-input {
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    margin-right: 24px;
+    padding-left: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
 }
 
+.footer-input::placeholder {
+    color: #ffffff;
+}
+
+/* Кнопка подписки */
 .footer-submit-btn {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -537,20 +549,16 @@ a {
     color: #fff;
     cursor: pointer;
     background-color: #4D5AE5;
-    display: block;
-    margin: 0 auto;
-    border-radius: 4px;
     border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 165px;
     height: 40px;
     padding: 8px 24px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     gap: 16px;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-submit-btn:hover {
@@ -561,19 +569,23 @@ a {
     background-color: #404BBF;
 }
 
+/* Иконка внутри кнопки */
 .subscribe-btn {
-    border-radius: 4px;
     width: 24px;
     height: 24px;
-    margin-top: 8px;
+    margin-left: 16px;
 }
 
+/* Формы подписки */
 .footer-subscribe {
     display: flex;
     gap: 24px;
 }
 
-.footer-subscribe-label {}
+/* Label для поля ввода */
+.footer-subscribe-label {
+    display: none;
+}
 
 
 .backdrop{
