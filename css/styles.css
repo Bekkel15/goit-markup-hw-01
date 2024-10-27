@@ -508,7 +508,6 @@ a {
     justify-content: space-between;
 }
 
-/* Заголовок для форми підписки */
 .subscribe-subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -518,15 +517,12 @@ a {
     margin-bottom: 16px;
 }
 
-/* Форми підписки, gap між елементами форми */
 .footer-subscribe {
     /* Клас з дефісом */
     display: flex;
     gap: 24px;
-    /* Визначаємо відступи між елементами форми */
 }
 
-/* Поле вводу email */
 .footer-input {
     background-color: transparent;
     border: 1px solid #fff;
@@ -536,13 +532,13 @@ a {
     margin-right: 24px;
 }
 
-/* Placeholder в полі email */
+
 .footer-input::placeholder {
     color: #ffffff;
-    /* Колір тексту */
+    
 }
 
-/* Кнопка підписки */
+
 .footer-submit-btn {
         font-family: inherit;
         font-weight: 500;
@@ -567,18 +563,18 @@ a {
         gap: 16px;
 }
 
-/* Hover ефект для кнопки */
+
 .footer-submit-btn:hover {
     background-color: #404BBF;
-    /* Зміна фону при наведенні */
+    
 }
 
 .footer-submit-btn:focus {
     background-color: #404BBF;
-    /* Зміна фону при фокусі */
+    
 }
 
-/* Іконка всередині кнопки */
+
 .subscribe-btn {
     border-radius: 4px;
         width: 24px;
