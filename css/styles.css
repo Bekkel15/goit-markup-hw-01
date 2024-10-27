@@ -535,6 +535,7 @@ a {
     width: 264px;
     height: 40px;
     margin-right: 24px;
+    color: #ffffff;
 }
 
 
@@ -587,8 +588,6 @@ a {
         margin-top: 8px;
 }
 .subscribe-icon{
-    width: 24px;
-    height: 24px;
     margin-left: 16px;
 }
 
