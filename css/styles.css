@@ -586,6 +586,11 @@ a {
         height: 24px;
         margin-top: 8px;
 }
+.subscribe-icon{
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+}
 
 
 .backdrop{
