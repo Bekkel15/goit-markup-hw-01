@@ -460,6 +460,9 @@ a {
     display: flex;
     gap: 16px;
 }
+.footer-soc{
+    margin-right: 80px;
+}
 
 .footer-soc-link {
     width: 40px;
