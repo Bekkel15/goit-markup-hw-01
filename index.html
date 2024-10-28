@@ -65,6 +65,7 @@
             class="main-button"
             type="button"
             aria-label="Order service from WebStudio"
+            data-modal-open
           >
             Order Service
           </button>
@@ -602,9 +603,9 @@
     </footer>
 
     <!--Backdrop-->
-    <div class="backdrop is-open">
+    <div class="backdrop" data-modal>
       <div class="modal">
-        <button type="button" class="modal-open-btn">
+        <button type="button" class="modal-open-btn" data-modal-close>
           <svg class="modal-close-btn" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
