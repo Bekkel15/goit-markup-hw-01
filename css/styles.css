@@ -385,7 +385,7 @@ button {
     background-color: rgba(46, 47, 66, 0.7);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/Dark-bg-min.jpg);
+        url(../images/Dark-bg\ \(3\)-min.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -399,12 +399,13 @@ button {
     width: 320px;
 }
 
+
 @media screen and (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg-min.jpg);
-        width: 768px;
+            url(../images/Dark-bg\ \(2\)-min.jpg);
+        width: 320px;
     }
 }
 
@@ -435,7 +436,24 @@ button {
 
 }
 
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg\ \(2\)-min.jpg);
+        width: 768px;
+        height: 436px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
 
+    @media screen and (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bg\ \(3\)-min.jpg);
+        }
+    }
 
     .hero-title {
         font-size: 56px;
@@ -451,7 +469,7 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office-desk-x1.jpg);
+            url(../images/Dark-bg\ \(3\)-min.jpg);
         width: 1440px;
         height: 600px;
         padding-top: 188px;
@@ -466,7 +484,7 @@ button {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/people-office-desk-x2.jpg);
+                url(../images/Dark-bg\ \(3\)-min.jpg);
         }
     }
 
@@ -540,7 +558,7 @@ button {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 24px;
+        gap: 72px 24px;
     }
 
     .avantages-subtitle {
@@ -612,7 +630,7 @@ button {
     padding: 96px 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 96px;
+
 
 }
 
@@ -697,8 +715,6 @@ button {
 
 @media screen and (min-width: 768px) {
     .team {
-        width: 768px;
-        height: 1224px;
         padding: 96px 0;
     }
 
@@ -714,8 +730,6 @@ button {
 
 @media screen and (min-width: 1158px) {
     .team {
-        width: 1440px;
-        height: 780px;
         padding: 120px 0;
         margin-bottom: 120px;
     }
@@ -735,7 +749,7 @@ button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 96px;
+    padding-top: 96px;
 }
 
 .portfolio-title {
@@ -800,6 +814,7 @@ button {
     .portfolio {
         width: 736px;
         height: 1516px;
+        margin-bottom: 96px;
     }
 
     .portfolio-list {
@@ -851,6 +866,68 @@ button {
 
 
 }
+@media screen and (min-width: 1158px) {
+    .portfolio {
+        padding-top: 96px;
+        max-width: 1158px;
+        /* Обмежує ширину контенту на великих екранах */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portfolio-list {
+        display: grid;
+        /* Використання grid для більш зручного керування кількістю елементів в рядку */
+        grid-template-columns: repeat(3, 1fr);
+        /* Три елементи в рядку */
+        gap: 64px;
+        /* Відстань між елементами */
+        justify-items: center;
+        /* Вирівнювання елементів по центру */
+    }
+
+    .portfolio-item {
+        width: 100%;
+        /* Ширина елементів автоматично адаптується під розмір сітки */
+        max-width: 344px;
+        /* Максимальна ширина для елементів */
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .portfolio-item-images {
+        width: 100%;
+        max-width: 344px;
+        /* Максимальна ширина зображення */
+        height: auto;
+        /* Збереження пропорцій зображення */
+    }
+
+    .portfolio-subtitle-text {
+        width: 100%;
+        max-width: 344px;
+        /* Максимальна ширина текстового блоку під зображенням */
+        padding: 32px 20px;
+    }
+
+    .portfolio-subtitle {
+        font-weight: 500;
+        font-size: 22px;
+        /* Збільшений розмір шрифту заголовку */
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
+    }
+
+    .portfolio-item-text {
+        font-size: 18px;
+        /* Трохи більший текст опису */
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+        margin-bottom: 0;
+    }
+}
 
 
 
@@ -888,9 +965,6 @@ button {
     display: flex;
     flex-wrap: wrap;
     background: #2e2f42;
-    padding-top: 96px;
-    padding-bottom: 96px;
-    width: 320px;
     margin: 0 auto;
 }
 
@@ -907,8 +981,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-left: 86px;
-    margin-right: 86px;
 
 }
 
@@ -1064,74 +1136,109 @@ button {
     margin-bottom: 16px;
 }
 
-@media screen and (min-width: 768px) {
-
-    .container footer {
-        width: 768px;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-    }
-
-    .footer {
-        width: 768px;
-        padding-top: 0;
-        padding-bottom: 0;
-
-    }
-
-    .footer-logo {
-        margin-left: 0;
-    }
-
+@media screen and (max-width: 767px) {
     .footer-block-logo {
-        width: 264px;
-        margin-top: 96px;
-        margin-left: 92px;
-        margin-right: 24px;
+        text-align: center;
+        margin-bottom: 72px;
     }
 
     .footer-soc {
-        margin-top: 96px;
-        margin-bottom: 0;
-        width: 208px;
-        margin-left: 0;
-        margin-right: 148px;
+
+        justify-content: flex-start;
+        text-align: left;
     }
 
-    .footer-media-text {
+    .footer-soc-item{
+        justify-content: flex-start;
+    }
+
+    .footer-soc-item {
+        justify-content: center;
+    }
+
+    .footer-subscribe{
+        margin: 16px auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .conteiner footer {
         display: flex;
-        align-items: normal;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 72px 24px;
     }
 
-    .subscribe {
-        margin-left: 92px;
-
+    .footer-text {
+        text-align: left;
     }
 
-    .footer-input {
-        margin-left: 0;
-        width: 264px;
+    .subscribe{
+        gap: 24px;
     }
 
-    .footer-submit-btn {
-        margin-left: 24px;
-        margin-right: 0;
+    .subscribe-subtitle {
+        margin-bottom: 16px;
+        /* Отступ между заголовком и полем ввода */
+        text-align: left;
     }
 
     .footer-subscribe {
+        position: relative;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 165px;
-        height: 40px;
-        gap: 0;
-        margin-bottom: 96px;
     }
 
+    .footer-subscribe {
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    .footer-submit {
+        position: relative;
+        left: 24px;
+        /* Отступ от поля ввода */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1157px) {
+    .footer-soc {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .conteiner footer {
+        width: 584px;
+    }
 
 }
 
+@media screen and (min-width: 1158px) {
+
+    .conteiner-footer {
+        flex-wrap: nowrap;
+        gap: unset;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        column-gap: 0;
+        row-gap: 0;
+
+    }
+
+    .footer-block-logo {
+        margin-right: 120px;
+    }
+
+    .footer-social-container {
+        margin-right: 80px;
+    }
+
+    .footer-text {
+        text-align: left;
+    }
+
+}
 
 
 
@@ -1406,3 +1513,15 @@ button {
     }
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
