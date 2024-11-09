@@ -291,7 +291,6 @@ button {
 }
 
 .mobile-menu-nav {
-    margin-top: 72px;
     margin-bottom: auto;
 }
 
@@ -385,7 +384,7 @@ button {
     background-color: rgba(46, 47, 66, 0.7);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/Dark-bg\ \(3\)-min.jpg);
+        url(../images/Dark-bg1x-min.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -404,8 +403,8 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg\ \(2\)-min.jpg);
-        width: 320px;
+            url(../images/Dark-bg1x-min.jpg);
+        max-width: 320px;
     }
 }
 
@@ -440,9 +439,8 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg\ \(2\)-min.jpg);
-        width: 768px;
-        height: 436px;
+            url(../images/Dark-bg2x-min.jpg);
+        max-width: 768px;
         padding-top: 112px;
         padding-bottom: 112px;
     }
@@ -451,7 +449,7 @@ button {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/Dark-bg\ \(3\)-min.jpg);
+                url(../images/Dark-bg2x-min.jpg);
         }
     }
 
@@ -469,8 +467,8 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg\ \(3\)-min.jpg);
-        width: 1440px;
+            url(../images/Dark-bg2x-min.jpg);
+        max-width: 1440px;
         height: 600px;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -484,7 +482,7 @@ button {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/Dark-bg\ \(3\)-min.jpg);
+                url(../images/Dark-bg2x-min.jpg);
         }
     }
 
@@ -537,7 +535,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 .avantages-item-text {
@@ -606,7 +604,7 @@ button {
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        margin-bottom: 8px;
+        padding-bottom: 8px;
     }
 
     .avantages-item-text {
@@ -668,7 +666,7 @@ button {
     padding-bottom: 32px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
 }
 
 .team-item-text {
@@ -677,7 +675,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 .team-soc-item {
@@ -781,8 +779,7 @@ button {
 }
 
 .portfolio-item-images {
-    width: 288px;
-    height: 280px;
+    
 }
 
 .portfolio-subtitle-text {
@@ -812,8 +809,6 @@ button {
 
 @media screen and (min-width: 768px) {
     .portfolio {
-        width: 736px;
-        height: 1516px;
         margin-bottom: 96px;
     }
 
@@ -827,11 +822,10 @@ button {
     }
 
     .portfolio-item-images {
-        width: 356px;
+        
     }
 
     .portfolio-subtitle-text {
-        width: 356px;
         border: none;
     }
 }
@@ -847,7 +841,6 @@ button {
     }
 
     .portfolio-item-images {
-        width: 360px;
     }
 
     .portfolio-item {
@@ -880,17 +873,13 @@ button {
         /* Використання grid для більш зручного керування кількістю елементів в рядку */
         grid-template-columns: repeat(3, 1fr);
         /* Три елементи в рядку */
-        gap: 64px;
+        gap: 48px 24px;
         /* Відстань між елементами */
         justify-items: center;
         /* Вирівнювання елементів по центру */
     }
 
     .portfolio-item {
-        width: 100%;
-        /* Ширина елементів автоматично адаптується під розмір сітки */
-        max-width: 344px;
-        /* Максимальна ширина для елементів */
         transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
@@ -903,9 +892,6 @@ button {
     }
 
     .portfolio-subtitle-text {
-        width: 100%;
-        max-width: 344px;
-        /* Максимальна ширина текстового блоку під зображенням */
         padding: 32px 20px;
     }
 
@@ -1158,7 +1144,7 @@ button {
  @media screen and (min-width: 768px)  {
 
      .container {
-         display: flex;
+         
          flex-wrap: wrap;
          align-content: center;
      }
@@ -1237,8 +1223,6 @@ button {
 
  @media screen and (min-width: 1158px) {
      .footer {
-         width: 1440px;
-         height: 312px;
          padding-right: 0;
          padding-left: 0;
      }
@@ -1252,22 +1236,16 @@ button {
 
 
      .footer-block-logo {
-         margin-top: 100px;
-         margin-bottom: 100px;
-         margin-left: 148px;
          margin-right: 120px;
          
      }
 
      .footer-soc {
-         margin-top: 100px;
          margin-right: 80px;
-         margin-bottom: 132px;
      }
 
      .subscribe {
          margin-left: 0;
-         margin-top: 100px;
          align-items: normal;
      }
 
