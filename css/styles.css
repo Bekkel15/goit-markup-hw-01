@@ -54,7 +54,7 @@ button {
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
+        max-width: 1440px;
         padding: 0 15px;
         margin-left: auto;
         margin-right: auto;
@@ -1155,7 +1155,7 @@ button {
     margin-bottom: 16px;
 }
 
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px)  {
 
      .container {
          display: flex;
@@ -1165,23 +1165,25 @@ button {
 
      .footer-container {
          display: flex;
+         flex-wrap: wrap;
          flex-direction: row;
-         padding-left: 0;
-         padding-right: 0;
-         flex-wrap: nowrap;
+         justify-content: flex-start;
+         align-items: flex-start;
+         gap: 72px 24px;
+         align-content: center;
+        
+
+         
      }
 
      .footer {
-         width: 768px;
          padding-top: 0;
          padding-bottom: 0;
      }
 
      .footer-block-logo {
          width: 264px;
-         margin-top: 96px;
-         margin-left: 108px;
-         margin-right: 24px;
+         margin-bottom: 0;
      }
 
      .footer-logo {
@@ -1189,9 +1191,9 @@ button {
      }
 
      .footer-soc {
-         margin-left: 0;
-         margin-bottom: 0;
-         width: 208px;
+         text-align: center;
+         margin-top: 0;
+         
 
      }
 
@@ -1201,7 +1203,6 @@ button {
      }
 
      .subscribe {
-         margin-left: 108px;
          display: flex;
          align-items: normal;
      }
