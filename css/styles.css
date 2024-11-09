@@ -724,7 +724,7 @@ button {
     }
 
     .team-item {
-        margin-bottom: auto;
+        margin-bottom: 72px;
     }
 }
 
@@ -964,30 +964,40 @@ button {
 .footer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     background: #2e2f42;
     margin: 0 auto;
-    margin-bottom: 96px;
+    gap: 72px 24px;
 }
  .footer-container {
      display: flex;
+     flex-wrap: nowrap;
+
      flex-direction: column;
      justify-content: flex-start;
-     align-items: center;
+     align-items: flex-start;
  }
 
 .footer-block-logo {
     width: 288px;
     margin-bottom: 72px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
+        display: inline-block;
+        text-decoration: none;
+    
     
 
 }
@@ -1157,6 +1167,7 @@ button {
          flex-direction: row;
          padding-left: 0;
          padding-right: 0;
+         flex-wrap: nowrap;
      }
 
      .footer {
@@ -1233,6 +1244,8 @@ button {
      .footer-container {
          margin-left: 0;
          margin-right: 0;
+         flex-wrap: nowrap;
+         gap: unset;
      }
 
 
