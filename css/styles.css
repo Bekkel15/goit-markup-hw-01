@@ -749,7 +749,7 @@ button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 96px;
+    padding: 96px 0 120px 0;
 }
 
 .portfolio-title {
@@ -968,6 +968,7 @@ button {
     background: #2e2f42;
     margin: 0 auto;
     gap: 72px 24px;
+    padding: 96px 0;
 }
  .footer-container {
      display: flex;
