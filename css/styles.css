@@ -1,6 +1,11 @@
 .hidden {
     display: none;
 }
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -395,7 +400,8 @@ button {
     align-items: center;
     padding-top: 72px;
     padding-bottom: 72px;
-    width: 320px;
+    width: 100%;
+    
 }
 
 
@@ -403,7 +409,7 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg1x-min.jpg);
+            url(../images/Dark-bg2x-min.jpg);
         max-width: 320px;
     }
 }
@@ -439,7 +445,7 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg2x-min.jpg);
+            url(../images/Dark-bg1x-min.jpg);
         max-width: 768px;
         padding-top: 112px;
         padding-bottom: 112px;
