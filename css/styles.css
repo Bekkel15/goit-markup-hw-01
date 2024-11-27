@@ -59,7 +59,7 @@ button {
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1440px;
+        max-width: 1158px;
         padding: 0 15px;
         margin-left: auto;
         margin-right: auto;
@@ -401,6 +401,7 @@ button {
     padding-top: 72px;
     padding-bottom: 72px;
     width: 100%;
+    max-width: 320px;
     
 }
 
@@ -410,7 +411,7 @@ button {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
             url(../images/Dark-bg2x-min.jpg);
-        max-width: 320px;
+        
     }
 }
 
@@ -421,7 +422,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .hero-btn {
@@ -445,7 +446,7 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg1x-min.jpg);
+            url(../images/Dark-bg2x-min.jpg);
         max-width: 768px;
         padding-top: 112px;
         padding-bottom: 112px;
@@ -473,7 +474,7 @@ button {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg2x-min.jpg);
+            url(../images/people-office-min.jpg);
         max-width: 1440px;
         height: 600px;
         padding-top: 188px;
@@ -488,7 +489,7 @@ button {
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/Dark-bg2x-min.jpg);
+                url(../images/people-office-min.jpg);
         }
     }
 
@@ -497,8 +498,8 @@ button {
 /* -----------avantages-------- */
 
 .avantages {
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .avantages-list {
@@ -521,7 +522,6 @@ button {
 
 .avantages-item {
     width: 264px;
-    height: 112px;
     margin-bottom: 72px;
     width: 100%;
 }
@@ -541,7 +541,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .avantages-item-text {
@@ -586,13 +586,9 @@ button {
     }
 
     .avantages {
-
-        width: 1128px;
-        height: 224px;
         margin-top: 120px;
         margin-bottom: 120px;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 
 
@@ -610,7 +606,7 @@ button {
         line-height: 120%;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
     }
 
     .avantages-item-text {
@@ -629,13 +625,8 @@ button {
 /* -------------team----------- */
 
 .team {
-    display: flex;
     background: #f4f4fd;
     padding: 96px 0;
-    margin-left: auto;
-    margin-right: auto;
-
-
 }
 
 .team-title {
@@ -669,10 +660,9 @@ button {
 
 .team-item {
     border-radius: 0 0 4px 4px;
-    padding-bottom: 32px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
-    padding-bottom: 72px;
+    
 }
 
 .team-item-text {
@@ -692,7 +682,7 @@ button {
 
 .team-item-images {
     display: block;
-    margin-bottom: 32px;
+
 }
 
 
@@ -728,14 +718,13 @@ button {
     }
 
     .team-item {
-        margin-bottom: 72px;
+        
     }
 }
 
 @media screen and (min-width: 1158px) {
     .team {
         padding: 120px 0;
-        margin-bottom: 120px;
     }
 
     .team-list {
@@ -954,12 +943,7 @@ button {
 /* ----------footer--------- */
 
 .footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     background: #2e2f42;
-    margin: 0 auto;
-    gap: 72px 24px;
     padding: 96px 0;
 }
  .footer-container {
@@ -1188,7 +1172,7 @@ button {
 
      .footer-soc {
          text-align: center;
-         margin-top: 0;
+         margin: 0;
          
 
      }
@@ -1224,10 +1208,8 @@ button {
          display: flex;
          flex-direction: row;
          justify-content: flex-start;
-         width: 165px;
-         height: 40px;
          gap: 0;
-         margin-bottom: 96px;
+         margin-bottom: 0;
      }
 
  }
@@ -1240,8 +1222,6 @@ button {
      }
 
      .footer-container {
-         margin-left: 0;
-         margin-right: 0;
          flex-wrap: nowrap;
          gap: unset;
          min-width: 1158px;
@@ -1258,7 +1238,7 @@ button {
      }
 
      .subscribe {
-         margin-left: 0;
+         margin-left: auto;
          align-items: normal;
      }
 
@@ -1267,7 +1247,7 @@ button {
      }
 
      .footer-subscribe {
-         margin-bottom: 132px;
+         
      }
 
  }
