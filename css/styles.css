@@ -465,7 +465,7 @@ button {
         line-height: 107%;
         text-align: center;
         color: #fff;
-        padding-bottom: 36px;
+        margin-bottom: 36px;
 
     }
 }
@@ -482,7 +482,7 @@ button {
     }
 
     .hero-title {
-        padding-bottom: 48px;
+        margin-bottom: 48px;
     }
 
     @media screen and (min-resolution: 2dppx) {
@@ -684,6 +684,10 @@ button {
     display: block;
 
 }
+.container-subtitle-text{
+    padding-bottom: 32px;
+    padding-top: 8px;
+}
 
 
 
@@ -742,7 +746,7 @@ button {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding: 96px 0 120px 0;
+    padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -774,7 +778,9 @@ button {
 }
 
 .portfolio-item-images {
-    
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-subtitle-text {
@@ -804,7 +810,7 @@ button {
 
 @media screen and (min-width: 768px) {
     .portfolio {
-        margin-bottom: 96px;
+        padding: 96px 0 120px 0;
     }
 
     .portfolio-list {
@@ -827,7 +833,7 @@ button {
 
 @media screen and (min-width: 1158px) {
     .portfolio {
-        width: 1128px;
+        padding: 120px 0 120px 0;
 
     }
 
@@ -856,11 +862,8 @@ button {
 }
 @media screen and (min-width: 1158px) {
     .portfolio {
-        padding-top: 96px;
-        max-width: 1158px;
-        /* Обмежує ширину контенту на великих екранах */
-        margin-left: auto;
-        margin-right: auto;
+        
+        
     }
 
     .portfolio-list {
@@ -1016,6 +1019,7 @@ button {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    margin-bottom: 72px;
 }
 
 .footer-soc-link {
@@ -1285,7 +1289,7 @@ button {
     left: 50%;
     padding: 72px 16px 24px 16px;
     width: 288px;
-    min-height: 623px;
+    
     transform: translate(-50%, -50%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
@@ -1459,6 +1463,9 @@ button {
     border: none;
     fill: #f4f4fd;
 }
+.modal-field-textarea{
+    margin-bottom: 16px;
+}
 
 .privacy-policy {
     line-height: 133%;
@@ -1520,7 +1527,7 @@ button {
 @media screen and (min-width: 768px) {
     .modal {
         width: 408px;
-        height: 584px;
+        
         padding: 72px 24px 24px 24px;
     }
 }
